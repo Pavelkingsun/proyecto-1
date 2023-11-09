@@ -1,0 +1,305 @@
+C:\Users\elsol>mkdir Proyecto
+
+C:\Users\elsol>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol
+
+04/11/2023  17:57    <DIR>          .
+16/08/2023  05:30    <DIR>          ..
+16/08/2023  05:25    <DIR>          .cache
+16/08/2023  05:25    <DIR>          .eclipse
+30/10/2023  05:58                21 .gitconfig
+16/08/2023  19:13    <DIR>          .p2
+16/08/2023  05:12    <DIR>          Contacts
+16/08/2023  05:15    <DIR>          Documents
+04/11/2023  14:53    <DIR>          Downloads
+16/08/2023  05:21    <DIR>          eclipse
+15/08/2023  16:40    <DIR>          eclipse-workspace
+04/11/2023  15:02    <DIR>          ejercicio
+16/08/2023  05:12    <DIR>          Favorites
+16/08/2023  05:12    <DIR>          Links
+16/08/2023  05:12    <DIR>          Music
+16/08/2023  05:15    <DIR>          OneDrive
+04/11/2023  17:57    <DIR>          Proyecto
+16/08/2023  05:12    <DIR>          Saved Games
+16/08/2023  05:30    <DIR>          Searches
+27/08/2023  17:14    <DIR>          Videos
+               1 archivos             21 bytes
+              19 dirs  181.704.822.784 bytes libres
+
+C:\Users\elsol>dir Proyecto
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\Proyecto
+
+04/11/2023  17:57    <DIR>          .
+04/11/2023  17:57    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  181.704.687.616 bytes libres
+
+C:\Users\elsol>cd proyecto
+
+C:\Users\elsol\Proyecto>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\Proyecto
+
+04/11/2023  17:57    <DIR>          .
+04/11/2023  17:57    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  181.704.138.752 bytes libres
+
+C:\Users\elsol\Proyecto>mkdir documento && mkdir imagenes && mkdir codigo
+
+C:\Users\elsol\Proyecto>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\Proyecto
+
+04/11/2023  18:04    <DIR>          .
+04/11/2023  17:57    <DIR>          ..
+04/11/2023  18:04    <DIR>          codigo
+04/11/2023  18:04    <DIR>          documento
+04/11/2023  18:04    <DIR>          imagenes
+               0 archivos              0 bytes
+               5 dirs  181.676.691.456 bytes libres
+
+C:\Users\elsol\Proyecto>cd documentos
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\elsol\Proyecto>cd documento
+
+C:\Users\elsol\Proyecto\documento>COPY CON Notas.txt
+
+
+
+^Z
+        1 archivo(s) copiado(s).
+
+C:\Users\elsol\Proyecto\documento>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\Proyecto\documento
+
+04/11/2023  18:10    <DIR>          .
+04/11/2023  18:04    <DIR>          ..
+04/11/2023  18:10                 6 Notas.txt
+               1 archivos              6 bytes
+               2 dirs  181.652.488.192 bytes libres
+
+C:\Users\elsol\Proyecto\documento>compac Notas.txt../codigo
+"compac" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\elsol\Proyecto\documento>COPY Notas.txt../codigo
+La sintaxis del comando no es correcta.
+
+C:\Users\elsol\Proyecto\documento>COPY Notas.txt ../codigo
+La sintaxis del comando no es correcta.
+
+C:\Users\elsol\Proyecto\documento>COPY Notas.txt codigo\copia2.txt
+El sistema no puede encontrar la ruta especificada.
+        0 archivo(s) copiado(s).
+
+C:\Users\elsol\Proyecto\documento>COPY Notas.txt C:\Users\elsol\Proyecto\codigo
+        1 archivo(s) copiado(s).
+
+C:\Users\elsol\Proyecto\documento> ../
+".." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\elsol\Proyecto\documento>cd..
+
+C:\Users\elsol\Proyecto>cd codigo
+
+C:\Users\elsol\Proyecto\codigo>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\Proyecto\codigo
+
+04/11/2023  18:47    <DIR>          .
+04/11/2023  18:04    <DIR>          ..
+04/11/2023  18:10                 6 Notas.txt
+               1 archivos              6 bytes
+               2 dirs  181.633.761.280 bytes libres
+
+C:\Users\elsol\Proyecto\codigo> MOVE  Notas.txt\ informacion txt C:\Users\elsol\Proyecto\imagenes
+La sintaxis del comando no es correcta.
+
+C:\Users\elsol\Proyecto\codigo> cd..
+
+C:\Users\elsol\Proyecto>
+C:\Users\elsol\Proyecto>TREE /F
+Listado de rutas de carpetas para el volumen OS
+El número de serie del volumen es 6AE8-211C
+C:.
+├───codigo
+│       Notas.txt
+│
+├───documento
+│       Notas.txt
+│
+└───imagenes
+
+C:\Users\elsol\Proyecto>cd codigo
+
+C:\Users\elsol\Proyecto\codigo>cd..
+
+C:\Users\elsol\Proyecto>MOVE codigo\Notas.txt imagenes\informacion.txt
+Se han movido         1 archivos.
+
+C:\Users\elsol\Proyecto>cd imagenes
+
+C:\Users\elsol\Proyecto\imagenes>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\Proyecto\imagenes
+
+04/11/2023  19:03    <DIR>          .
+04/11/2023  18:04    <DIR>          ..
+04/11/2023  18:10                 6 informacion.txt
+               1 archivos              6 bytes
+               2 dirs  181.635.624.960 bytes libres
+
+C:\Users\elsol\Proyecto\imagenes>
+
+
+
+C:\Users\elsol\Proyecto\imagenes>cd..
+
+C:\Users\elsol\Proyecto>cd..
+
+C:\Users\elsol>mkdir Proyecto 2
+Ya existe el subdirectorio o el archivo Proyecto.
+Error mientras se procesaba: Proyecto.
+
+C:\Users\elsol>mkdir proyecto2
+
+C:\Users\elsol>cd pryecto2
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\elsol>cd proyecto2
+
+C:\Users\elsol\proyecto2>mkdir experimento1 && experimento2 && experimento 3
+"experimento2" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\elsol\proyecto2>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\proyecto2
+
+04/11/2023  19:09    <DIR>          .
+04/11/2023  19:08    <DIR>          ..
+04/11/2023  19:09    <DIR>          experimento1
+               0 archivos              0 bytes
+               3 dirs  181.626.376.192 bytes libres
+
+C:\Users\elsol\proyecto2>mkdir experimento 2 && mkdir experimento3
+
+C:\Users\elsol\proyecto2>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\proyecto2
+
+04/11/2023  19:10    <DIR>          .
+04/11/2023  19:08    <DIR>          ..
+04/11/2023  19:10    <DIR>          2
+04/11/2023  19:10    <DIR>          experimento
+04/11/2023  19:09    <DIR>          experimento1
+04/11/2023  19:10    <DIR>          experimento3
+               0 archivos              0 bytes
+               6 dirs  181.625.794.560 bytes libres
+
+C:\Users\elsol\proyecto2> del 2
+C:\Users\elsol\proyecto2\2\*, ¿Está seguro (S/N)? s
+
+C:\Users\elsol\proyecto2>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\proyecto2
+
+04/11/2023  19:10    <DIR>          .
+04/11/2023  19:08    <DIR>          ..
+04/11/2023  19:10    <DIR>          2
+04/11/2023  19:10    <DIR>          experimento
+04/11/2023  19:09    <DIR>          experimento1
+04/11/2023  19:10    <DIR>          experimento3
+               0 archivos              0 bytes
+               6 dirs  181.625.856.000 bytes libres
+
+C:\Users\elsol\proyecto2> DEL 2
+C:\Users\elsol\proyecto2\2\*, ¿Está seguro (S/N)? S
+
+C:\Users\elsol\proyecto2>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\proyecto2
+
+04/11/2023  19:10    <DIR>          .
+04/11/2023  19:08    <DIR>          ..
+04/11/2023  19:10    <DIR>          2
+04/11/2023  19:10    <DIR>          experimento
+04/11/2023  19:09    <DIR>          experimento1
+04/11/2023  19:10    <DIR>          experimento3
+               0 archivos              0 bytes
+               6 dirs  181.625.847.808 bytes libres
+
+C:\Users\elsol\proyecto2>mkdir experimento2
+
+C:\Users\elsol\proyecto2>cd experimento1
+
+C:\Users\elsol\proyecto2\experimento1>mkdir datos
+
+C:\Users\elsol\proyecto2\experimento1>cd datos
+
+C:\Users\elsol\proyecto2\experimento1\datos>mkdir raw procesados resultados
+
+C:\Users\elsol\proyecto2\experimento1\datos>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\proyecto2\experimento1\datos
+
+04/11/2023  19:14    <DIR>          .
+04/11/2023  19:13    <DIR>          ..
+04/11/2023  19:14    <DIR>          procesados
+04/11/2023  19:14    <DIR>          raw
+04/11/2023  19:14    <DIR>          resultados
+               0 archivos              0 bytes
+               5 dirs  181.624.635.392 bytes libres
+
+C:\Users\elsol\proyecto2\experimento1\datos>cd.
+
+C:\Users\elsol\proyecto2\experimento1\datos>cd..
+
+C:\Users\elsol\proyecto2\experimento1> copy con Registro.txt
+^Z
+        1 archivo(s) copiado(s).
+
+C:\Users\elsol\proyecto2\experimento1>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 6AE8-211C
+
+ Directorio de C:\Users\elsol\proyecto2\experimento1
+
+04/11/2023  19:15    <DIR>          .
+04/11/2023  19:12    <DIR>          ..
+04/11/2023  19:14    <DIR>          datos
+04/11/2023  19:15                 0 Registro.txt
+               1 archivos              0 bytes
+               3 dirs  181.626.654.720 bytes libres
+
+C:\Users\elsol\proyecto2\experimento1>
